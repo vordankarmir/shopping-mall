@@ -4,6 +4,21 @@
 $ npm install
 ```
 
+Create .env file in the root directory of the project.
+
+Add the environment variables.
+
+```
+# DATABASE CONFIGS
+DATABASE_URI='mongodb://127.0.0.1:27017/'
+DATABASE_NAME='task-management'
+DATABASE_USER=
+DATABASE_PASS=
+
+# APP CONFIGS
+PORT=3001
+```
+
 ## Migrate categories data to Mongodb
 
 ```
